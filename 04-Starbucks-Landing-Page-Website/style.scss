@@ -3,22 +3,22 @@
 // Vars
 :root {
   --whiteColor: #efefef;
-  --darckColor: #333333;
+  --darkColor: #333333;
   --greenColor: #017143;
 }
 $whiteColor: var(--whiteColor);
-$darckColor: var(--darckColor);
+$darkColor: var(--darkColor);
 $greenColor: var(--greenColor);
 
-// Darck Mode Start
-.darckMode {
+// dark Mode Start
+.darkMode {
   --whiteColor: #333333;
-  --darckColor: #efefef;
+  --darkColor: #efefef;
 }
 
 /* Script */
 .activeBtn {
-  background: $darckColor;
+  background: $darkColor;
 }
 .activeBtn span {
   background: $whiteColor;
@@ -88,7 +88,7 @@ header {
 
     span {
       display: block;
-      background: $darckColor;
+      background: $darkColor;
       height: 26px;
       width: 26px;
       border-radius: 50%;
@@ -106,7 +106,7 @@ header {
       a {
         text-decoration: none;
         display: inline-block;
-        color: $darckColor;
+        color: $darkColor;
         font-weight: 400;
         margin-left: 40px;
       }
@@ -126,7 +126,7 @@ header {
     max-width: 600px;
 
     h2 {
-      color: $darckColor;
+      color: $darkColor;
       font-size: 4em;
       line-height: 1.4em;
       font-weight: 500;
@@ -139,7 +139,7 @@ header {
     }
 
     p {
-      color: $darckColor;
+      color: $darkColor;
     }
 
     a {

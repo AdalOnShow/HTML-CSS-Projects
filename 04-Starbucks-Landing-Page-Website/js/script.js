@@ -2,7 +2,7 @@ var btn = document.getElementById("btn");
 
 function toggleBtn() {
   btn.classList.toggle("activeBtn");
-  document.body.classList.toggle("darckMode");
+  document.body.classList.toggle("darkMode");
 }
 
 function imgSlidr(anything) {
